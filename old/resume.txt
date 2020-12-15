@@ -1,0 +1,106 @@
+Cole Crawford
+============
+cole / dot / crawford / at / oregonstate / dot / edu  
+
+Oregon State University  
+Corvallis, Oregon                       
+United States                       
+
+Education
+---------
+
+- **M.A., English (Literature and Culture)**  
+Oregon State University (Corvallis, OR)  **&#124;**  2015-2017 (expected)  
+- **B.S., Computer Science, English (British Literature concentration)**  
+Honors, _summa cum laude_  
+Creighton University (Omaha, NE)  **&#124;**  2011-2015  
+Study Abroad: Fall 2013, University of Glasgow, Scotland – Principia Consortium Honors Program   
+
+Experience
+----------
+
+- **Graduate Teaching Assistant,** OSU Outreach &amp; Engagement  **&#124;**  Sept. 2016 - June 2017  
+Web development, event management, public relations. Developing &quot;Listen Up! Object Stories,&quot; a platform for Oregonians to digitally represent personal objects and their stories. Web dev / social media coordinator for The CO• (Corvallis Maker Fair).  
+- **Digital Project Development Intern**, OSU Libraries and Press  **&#124;**  July 2016 - Sept. 2016  
+Website development and data visualization of finding aids for OSU's Special Collections and Archives Research Center (Drupal, d3.js)  
+- **RaD Intern** , Creighton Research &amp; Development (RaD) Lab  **&#124;**  Jan. 2015 - May 2015  
+Raspberry Pi cluster computing, Kraken taxonomy labeling software  
+- **Digital Humanities Research Asssistant**, Creighton History Department  **&#124;**  Sept. 2014 - Jan 2015  
+Text analysis and visualization with R  
+- **IT Intern**, ConAgra Foods												**&#124;**  Nov. 2012 - May 2014  
+Rotations: Desktop Support; Web Development; Project Management; Mobile Help Desk  
+
+Teaching Experience  
+-------------------
+- **Graduate Teaching Assistant**, OSU School of Writing, Literature & Film  **&#124;**  Jan. 2017 - Mar. 2017  
+GTA and technical support for new course, "ENG 480/580: Introduction to Digital Humanities: The Virtual Collection"  
+- **Teaching Assistant**, Creighton College of Arts & Sciences  **&#124;**  Aug. 2014 - Dec. 2014  
+TA for Dean’s Fellows section of "Introduction to the Culture of Collegiate Life"  
+
+Publications
+------------
+- "Transforming Working Class Writers and Writing: Digital Editions, Projects, and Analyses," forthcoming in _A History of British Working Class Literature_. Edited by John Goodridge and Bridget Keegan, Cambridge UP, 2017.  
+
+Presentations and Talks
+-----------------------
+- **American Society for Eighteenth-Century Studies**, Minneapolis, MN  **&#124;**  Mar. 2017  
+		Presentation: “Building Laboring-Class Poets Online”  
+		Roundtable: “Laboring-Class Poets in Print and Digital Culture”  
+- **DHU2: Symposium on the Digital Humanities**, University of Utah  **&#124;**  Feb. 2017  
+		Presentation: “Expanding Access to the Linus Pauling Papers via Digital Finding Aid”  
+- Oregon State University Libraries and Press						**&#124;**  Nov. 2016  
+		Presentation: “Global Bonds: Visualizing the Ava Helen and Linus Pauling Papers”  
+- **British Association for Romantic Studies**, Cardiff University, Wales  **&#124;**  July 2015  
+		Presentation: “Transforming Robert Tannahill”  
+		Panel: “Exploring and Expanding the Archive of Laboring-Class Print Culture”  
+
+Honors and Awards
+-----------------
+- **Digital Humanities Summer Institute Scholarship** (2017), U. Victoria							Oct. 2016  
+- **HASTAC Scholars Fellowship (2016-18 Scholar)**, HASTAC											Oct. 2016  
+- **Provost's Distinguished Graduate Fellowship**, Oregon State University							Apr. 2015  
+- **College of Arts and Sciences Outstanding Senior Award**, Creighton College of Arts and Sciencs	Apr. 2015  
+- **Outstanding Computer Science Major**, Creighton Journalism, Media and Computing Department		Apr. 2015  
+- Proterra Award for Interdisciplinary Studies, Creighton English Department					Apr. 2015  
+- Solon E. Summerfield Scholarship, Phi Kappa Psi												Apr. 2015  
+- **Phi Beta Kappa**																				Feb. 2015  
+- Alpha Sigma Nu																				Feb. 2015  
+- Summer Undergraduate Research Fellowship, Creighton University								Mar. 2014  
+- **Presidential Mentoring Scholarship**, Creighton University										Feb. 2014  
+- Val Peter Scholarship, Creighton Journalism, Media and Computing Department					Apr. 2013  
+- **Presidential Scholarship**, Creighton University												Apr. 2011  
+- **Honors Scholars Program**, Creighton University													2011 - 2015  
+
+Service
+-------
+- **Alliance of Digital Humanities Organizations Web Developer** 	2016 – 2018
+- OSU Honors College Admissions Essay Review Board					2016 – 2017  
+- OSU English Department Promotion and Tenure Review Committee	 	2015
+- **Shadows Literary Magazine**										2011 – 2015
+  -	Awarded Columbia Scholastic Press Association Silver Medal		2014, 2015
+  -	Webmaster														2012 –2013
+  -	**Editor-in-Chief**												2013 – 2015  
+- Reinert Alumni Library Advisory Board								2014 – 2015  
+- Project TECHnovate: Innovative Classroom Technology Use			2014 – 2015  
+- Sigma Tau Delta, English Honors Society							2013 – 2015  
+  - Secretary														2013-2014  
+  -	Vice President													2014-2015  
+- Creighton Study Abroad Peer Advisor								2014 – 2015  
+- **Creighton Undergraduate Research and Studies Ambassador**		2013 – 2015
+- Creighton Student’s Union Appropriations Board					2012 – 2014
+
+</div>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-6">
+            <img class="img-responsive" src="{{ "/assets/img/about.jpg" | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="col-lg-6">
+            <h4>More About Our Agency.</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+            <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+            <p><br/><a href="/contact/" class="btn btn-theme">Contact Us</a></p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
