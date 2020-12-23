@@ -48,7 +48,10 @@
         </div>
       </div>
     </nav>
-    <router-view></router-view>
+    <div class="bd-main">
+      <router-view></router-view>
+    </div>
+  
     <Footer></Footer>
   </div>
 </template>

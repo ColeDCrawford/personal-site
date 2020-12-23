@@ -1,5 +1,5 @@
 <template>
-  <footer class="sticky-footer border-top border-light-gray gray h6">
+  <footer class="footer sticky-footer border-top border-light-gray gray h6">
     <div class="sm-col px2">©{{ this.year }} Cole Crawford</div>
     <div class="sm-col-right px2">
       <a href="https://github.com/ColeDCrawford" target="_blank" class="gray hint--top" data-hint="GitHub">

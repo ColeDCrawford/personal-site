@@ -1,16 +1,11 @@
 <template>
-    <div id="projects">
-        <h1>Projects</h1>
-        <router-link
-            v-for="project in projects"
+    <div class="tile is-ancestor" id="projects">
+        <show-project
+            v-for="project in featuredProjects"
             :key="project.slug"
-            :to="'/project/' + project.slug"
-            exact
-        >
-            <show-project
-                :slug="project.slug"
-            ></show-project>
-        </router-link>
+            :slug="project.slug"
+            :style="style"
+        ></show-project>
     </div>
 </template>
 <script>
@@ -20,13 +15,23 @@
         components: {
             'show-project': ShowProject,
         },
-        props: [],
+        props: {
+            'limit': {
+                default: -1
+            },
+            'style': {
+                default: 'card',
+            }
+        },
         data: function(){
             return {};
         },
         computed: {
             projects(){
-                return this.$store.state.projects;
+                return this.$store.state.projects.slice(0, this.limit);
+            },
+            featuredProjects(){
+                return this.$store.getters.getFeaturedProjects();
             }
         }
     }

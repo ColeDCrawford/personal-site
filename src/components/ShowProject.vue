@@ -1,7 +1,15 @@
 <template>
-    <div class="project">
-        {{ this.project }}
-        <h1>{{ this.project.title }}</h1>
+    <!-- individual project style -->
+    <div class="project" v-if="style == 'individual'">
+        <section class="hero is-medium is-info is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">
+                        {{ this.project.title }}
+                    </h1>
+                </div>
+            </div>
+        </section>
         <div class="content">{{ this.project.content }}</div>
         <ul class="links">
             <li v-for="link in this.project.metadata.links" :key="link">
@@ -17,24 +25,50 @@
                 {{ context }}
             </div>
         </div>
-        <ul class="technologies">
-            <li v-for="tech in this.project.metadata.technologies" :key="tech">
-                {{ tech }}
-            </li>
-        </ul>
-        <ul class="roles">
-            <li v-for="role in this.project.metadata.roles" :key="role">
-                {{ role }}
-            </li>
-        </ul>
+        <div class="technologies">
+            <show-tech v-for="tech in this.project.metadata.technologies" :key="tech" :tech="tech"></show-tech>
+        </div>
+        <div class="roles">
+            <show-role v-for="role in this.project.metadata.roles" :key="role" :role="role"></show-role>
+        </div>
+    </div>
+
+    <!-- Card project style -->
+    <div v-else-if="style='tile'">
+        <h2 class="title">{{ this.project.title }}</h2>
+        <div class="content">{{ this.project.content }} </div>
+        <div class="technologies">
+            <show-tech v-for="tech in this.project.metadata.technologies" :key="tech" :tech="tech" :size="'is-48x48'"></show-tech>
+        </div>
+    </div>
+    
+
+    <!-- -->
+    <div v-else>
+        <h2 class="title"></h2>
+        <figure class="image is-4by3">
+            <img>
+        </figure>
+        <div class="content">
+            {{ this.project.content }}
+        </div>
+        <div class="technologies">
+
+        </div>
     </div>
 </template>
 <script>
+    import ShowRole from '@/components/ShowRole.vue';
+    import ShowTech from '@/components/ShowTech.vue';
     export default{
         name: 'project',
-        components: {},
+        components: {
+            'show-role': ShowRole,
+            'show-tech': ShowTech
+        },
         props: [
-            'slug'
+            'slug',
+            'style'
         ],
         computed: {
             project(){
@@ -43,3 +77,6 @@
         }
     }
 </script>
+<style>
+
+</style>

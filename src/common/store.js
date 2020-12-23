@@ -37,5 +37,12 @@ export default new Vuex.Store({
                 }, this.slug)[0];
             }
         },
+        getFeaturedProjects(state){
+            return function(){
+                return state.projects.filter((project) => {
+                    return project.metadata.featured == true;
+                }, this.slug);
+            }
+        }
     }
 })
