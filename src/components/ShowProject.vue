@@ -1,6 +1,6 @@
 <template>
     <!-- individual project style -->
-    <div class="project" v-if="style == 'individual'">
+    <div class="project" v-if="displayType == 'individual'">
         <section class="hero is-medium is-info is-primary">
             <div class="hero-body">
                 <div class="container">
@@ -10,10 +10,10 @@
                 </div>
             </div>
         </section>
-        <div class="content">{{ this.project.content }}</div>
+        <div class="content" v-html="this.project.content"></div>
         <ul class="links">
             <li v-for="link in this.project.metadata.links" :key="link">
-                {{ link }}
+                <a :href="link.url">{{ link.link_title }}</a>
             </li>
         </ul>
         <div class="dates">{{this.project.metadata.start_date}} to 
@@ -34,9 +34,9 @@
     </div>
 
     <!-- Card project style -->
-    <div v-else-if="style='tile'">
-        <h2 class="title">{{ this.project.title }}</h2>
-        <div class="content">{{ this.project.content }} </div>
+    <div v-else-if="displayType == 'tile'">
+        <h2 class="title"><router-link :to="{ name: 'Project', params: { slug: this.slug }}">{{ project.title }}</router-link></h2>
+        <div class="content" v-html="this.project.content"></div>
         <div class="technologies">
             <show-tech v-for="tech in this.project.metadata.technologies" :key="tech" :tech="tech" :size="'is-48x48'"></show-tech>
         </div>
@@ -49,9 +49,7 @@
         <figure class="image is-4by3">
             <img>
         </figure>
-        <div class="content">
-            {{ this.project.content }}
-        </div>
+        <div class="content" v-html="this.project.content"></div>
         <div class="technologies">
 
         </div>
@@ -68,8 +66,11 @@
         },
         props: [
             'slug',
-            'style'
+            'displayType'
         ],
+        data: function(){
+            return {};
+        },
         computed: {
             project(){
                 return this.$store.getters.getProjectBySlug(this.slug);

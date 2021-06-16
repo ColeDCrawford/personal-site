@@ -9,7 +9,8 @@ const routes = [
     {
         path: '/project/:slug',
         component: () => import('@/components/pages/ProjectPage'),
-        props: true
+        props: true,
+        name: 'Project'
     },
     {
         path: '/projects',

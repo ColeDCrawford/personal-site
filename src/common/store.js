@@ -43,6 +43,14 @@ export default new Vuex.Store({
                     return project.metadata.featured == true;
                 }, this.slug);
             }
+        },
+        getProjectsByTech(state){
+            return function(tech){
+                console.log('getProjectsByTech ', tech);
+                return state.projects.filter((project) => {
+                    return project.metadata.technologies.some(r=>tech.includes(r));
+                }, this.slug);
+            }
         }
     }
 })

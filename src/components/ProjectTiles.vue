@@ -7,14 +7,14 @@
                         <!-- SMALL CONTENT -->
                         <show-project
                             :slug="featuredProjects[0].slug"
-                            :style="tile"
+                            displayType="tile"
                         ></show-project>
                     </article>
                     <article class="tile is child notification is-warning">
                         <!-- SMALL CONTENT -->
                         <show-project
                             :slug="featuredProjects[1].slug"
-                            :style="tile"
+                            displayType="tile"
                         ></show-project>
                     </article>
                 </div>
@@ -23,7 +23,7 @@
                         <!-- MEDIUM CONTENT -->
                         <show-project
                             :slug="featuredProjects[2].slug"
-                            :style="tile"
+                            displayType="tile"
                         ></show-project>
                     </article>
                 </div>
@@ -33,7 +33,7 @@
                     <!-- BIG CONTENT -->
                     <show-project
                             :slug="featuredProjects[3].slug"
-                            :style="tile"
+                            displayType="tile"
                         ></show-project>
                 </article>
             </div>
@@ -43,7 +43,7 @@
             <!-- TALL CONTENT -->
             <show-project
                 :slug="featuredProjects[4].slug"
-                :style="tile"
+                displayType="tile"
             ></show-project>
         </article>
     </div>

@@ -4,7 +4,7 @@
             v-for="project in featuredProjects"
             :key="project.slug"
             :slug="project.slug"
-            :style="style"
+            :style="tile"
         ></show-project>
     </div>
 </template>
@@ -20,7 +20,7 @@
                 default: -1
             },
             'style': {
-                default: 'card',
+                default: 'tile',
             }
         },
         data: function(){
@@ -32,6 +32,9 @@
             },
             featuredProjects(){
                 return this.$store.getters.getFeaturedProjects();
+            },
+            wordpress(){
+                return this.$store.getters.getProjectsByTech('wordpress');
             }
         }
     }
