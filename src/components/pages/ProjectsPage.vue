@@ -1,7 +1,7 @@
 <template>
     <div class="tile is-ancestor" id="projects">
         <show-project
-            v-for="project in featuredProjects"
+            v-for="project in projects"
             :key="project.slug"
             :slug="project.slug"
             :style="tile"
