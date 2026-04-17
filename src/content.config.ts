@@ -1,14 +1,19 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
+const dateString = z
+  .union([z.string(), z.date()])
+  .transform((v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v))
+  .optional();
+
 const projects = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/projects" }),
   schema: z.object({
     title: z.string(),
     featured: z.boolean().default(false),
     order: z.number().optional(),
-    start_date: z.string().optional(),
-    end_date: z.string().optional(),
+    start_date: dateString,
+    end_date: dateString,
     technologies: z.array(z.string()).default([]),
     roles: z.array(z.string()).default([]),
     context: z.array(z.string()).default([]),
