@@ -1,0 +1,138 @@
+---
+import Layout from "~/layouts/Layout.astro";
+
+const roles = [
+  {
+    title: "Staff AI Engineer",
+    org: "Reify Health",
+    dates: "2026 – Present",
+    blurb:
+      "Building AI systems in the clinical research / decentralized trials space.",
+  },
+  {
+    title: "Senior AI Engineer",
+    org: "Wood Mackenzie",
+    dates: "2025 – 2026",
+    blurb:
+      "Led internal AI orchestration and retrieval platforms (Woody, Quarry) — agentic frameworks and document processing at enterprise scale, on AWS Bedrock, Strands, and CDK.",
+  },
+  {
+    title: "Founder & Principal",
+    org: "Hapax Digital",
+    dates: "2024 – Present",
+    blurb:
+      "An AI and software-engineering consultancy focused on digital humanities and ed-tech projects. Current engagement: an agentic system for Jesuit formation at Saint Louis University.",
+  },
+  {
+    title: "Technical Director / Senior Developer",
+    org: "Harvard — Arts and Humanities Research Computing (DARTH)",
+    dates: "2017 – 2025",
+    blurb:
+      "Built and maintained ~20 research platforms in the arts & humanities — digital archives, TEI editing, IIIF image delivery, NLP-driven search, and data visualization. Django, React, Vue, AWS, Elasticsearch.",
+  },
+];
+
+const education = [
+  {
+    degree: "M.A., English (Literature and Culture)",
+    school: "Oregon State University",
+    year: "2017",
+  },
+  {
+    degree: "B.S., Computer Science & English (honors, summa cum laude)",
+    school: "Creighton University",
+    year: "2015",
+  },
+];
+---
+
+<Layout
+  title="About — Cole Crawford"
+  description="Cole Crawford — Staff AI Engineer, consultant, and recovering digital humanist."
+>
+  <section class="mx-auto max-w-3xl px-6 pt-16 pb-10">
+    <h1 class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">
+      About
+    </h1>
+
+    <div class="mt-8 space-y-5 text-lg text-ink-700 dark:text-ink-100 leading-relaxed">
+      <p>
+        I'm Cole. I build AI systems for a living — currently as Staff AI
+        Engineer at <strong>Reify Health</strong>, where I work on applied AI
+        in decentralized clinical trials.
+      </p>
+      <p>
+        Before Reify I was Senior AI Engineer at <strong>Wood Mackenzie</strong>,
+        building internal agentic platforms and retrieval systems for a team of
+        analysts across energy and natural resources. Before that, I spent
+        eight years at <strong>Harvard</strong>'s Arts and Humanities Research
+        Computing group (DARTH), where I built roughly twenty research
+        platforms for humanists — digital archives, TEI-driven editing, IIIF
+        image delivery, NLP-driven search, and a lot of data visualization.
+      </p>
+      <p>
+        On the side I run <a
+          href="https://hapax.digital"
+          class="underline decoration-accent-400/70 underline-offset-4 hover:text-accent-600"
+          >Hapax Digital</a
+        >, an AI and software-engineering consultancy focused on digital
+        humanities and ed-tech projects. If that sounds like it might overlap
+        with something you're working on, I'd love to hear about it.
+      </p>
+    </div>
+
+    <section class="mt-14">
+      <h2 class="font-serif text-2xl font-semibold mb-6">Experience</h2>
+      <ol class="space-y-6 relative border-l border-ink-100 dark:border-ink-700/50 pl-6">
+        {
+          roles.map((r) => (
+            <li class="relative">
+              <span class="absolute -left-[33px] top-2 w-2.5 h-2.5 rounded-full bg-accent-500" />
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 class="font-semibold">
+                  {r.title}
+                  <span class="text-ink-500 font-normal"> · {r.org}</span>
+                </h3>
+                <span class="text-sm text-ink-500">{r.dates}</span>
+              </div>
+              <p class="mt-1 text-ink-500">{r.blurb}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="font-serif text-2xl font-semibold mb-6">Education</h2>
+      <ul class="space-y-3">
+        {
+          education.map((e) => (
+            <li class="flex flex-wrap items-baseline justify-between gap-2">
+              <div>
+                <div class="font-medium">{e.degree}</div>
+                <div class="text-ink-500">{e.school}</div>
+              </div>
+              <span class="text-sm text-ink-500">{e.year}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="mt-14 border-t border-ink-100 dark:border-ink-700/50 pt-8">
+      <h2 class="font-serif text-2xl font-semibold mb-4">Get in touch</h2>
+      <p class="text-ink-500">
+        Email <a
+          class="underline decoration-accent-400/70 underline-offset-4 hover:text-accent-600"
+          href="mailto:cole@hapax.digital">cole@hapax.digital</a
+        >, or find me on <a
+          class="underline decoration-accent-400/70 underline-offset-4 hover:text-accent-600"
+          href="https://github.com/ColeDCrawford">GitHub</a
+        > and <a
+          class="underline decoration-accent-400/70 underline-offset-4 hover:text-accent-600"
+          href="https://www.linkedin.com/in/coledcrawford/">LinkedIn</a
+        >.
+      </p>
+    </section>
+  </section>
+</Layout>

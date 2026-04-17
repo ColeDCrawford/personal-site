@@ -3,32 +3,28 @@ import { TECH } from "~/lib/tech";
 
 interface Props {
   tech: string;
-  size?: "sm" | "md";
 }
-const { tech, size = "md" } = Astro.props;
+const { tech } = Astro.props;
 const meta = TECH[tech];
-const px = size === "sm" ? 24 : 40;
+const display = meta?.display ?? tech;
+const file = meta?.file;
 ---
 
-{
-  meta ? (
-    <span
-      class="inline-flex items-center gap-2 rounded-full bg-ink-100/80 dark:bg-ink-700/40 px-3 py-1 text-xs font-medium"
-      title={meta.display}
-    >
+<span
+  class="inline-flex items-center gap-2 rounded-full bg-ink-100/80 dark:bg-ink-700/40 px-3 py-1 text-xs font-medium"
+  title={display}
+>
+  {
+    file && (
       <img
-        src={`/tech/${meta.file}`}
+        src={`/tech/${file}`}
         alt=""
-        width={px}
-        height={px}
+        width="40"
+        height="40"
         class="w-4 h-4 object-contain"
         loading="lazy"
       />
-      {meta.display}
-    </span>
-  ) : (
-    <span class="inline-flex items-center rounded-full bg-ink-100 dark:bg-ink-700/40 px-3 py-1 text-xs font-medium">
-      {tech}
-    </span>
-  )
-}
+    )
+  }
+  {display}
+</span>
