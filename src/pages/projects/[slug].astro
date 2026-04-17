@@ -25,12 +25,12 @@ const {
 } = project.data;
 
 const fmtYear = (d?: string) => (d ? d.slice(0, 4) : undefined);
-const dateRange = [
-  fmtYear(start_date),
-  end_date ? fmtYear(end_date) : start_date ? "Now" : undefined,
-]
-  .filter(Boolean)
-  .join(" – ");
+const startYear = fmtYear(start_date);
+const endYear = end_date ? fmtYear(end_date) : start_date ? "Now" : undefined;
+const dateRange =
+  startYear && endYear && startYear === endYear
+    ? startYear
+    : [startYear, endYear].filter(Boolean).join(" – ");
 ---
 
 <Layout title={`${title} — Cole Crawford`}>

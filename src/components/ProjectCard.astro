@@ -10,9 +10,12 @@ const { project, featured = false } = Astro.props;
 const { title, technologies, start_date, end_date } = project.data;
 
 const year = (d?: string) => (d ? d.slice(0, 4) : undefined);
-const span = [year(start_date), end_date ? year(end_date) : start_date ? "Now" : undefined]
-  .filter(Boolean)
-  .join(" – ");
+const startYear = year(start_date);
+const endYear = end_date ? year(end_date) : start_date ? "Now" : undefined;
+const span =
+  startYear && endYear && startYear === endYear
+    ? startYear
+    : [startYear, endYear].filter(Boolean).join(" – ");
 ---
 
 <a
