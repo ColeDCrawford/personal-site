@@ -1,0 +1,34 @@
+---
+import { TECH } from "~/lib/tech";
+
+interface Props {
+  tech: string;
+  size?: "sm" | "md";
+}
+const { tech, size = "md" } = Astro.props;
+const meta = TECH[tech];
+const px = size === "sm" ? 24 : 40;
+---
+
+{
+  meta ? (
+    <span
+      class="inline-flex items-center gap-2 rounded-full bg-ink-100/80 dark:bg-ink-700/40 px-3 py-1 text-xs font-medium"
+      title={meta.display}
+    >
+      <img
+        src={`/tech/${meta.file}`}
+        alt=""
+        width={px}
+        height={px}
+        class="w-4 h-4 object-contain"
+        loading="lazy"
+      />
+      {meta.display}
+    </span>
+  ) : (
+    <span class="inline-flex items-center rounded-full bg-ink-100 dark:bg-ink-700/40 px-3 py-1 text-xs font-medium">
+      {tech}
+    </span>
+  )
+}

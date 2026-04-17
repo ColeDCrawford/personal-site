@@ -1,0 +1,127 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "~/layouts/Layout.astro";
+import TechBadge from "~/components/TechBadge.astro";
+import RoleBadge from "~/components/RoleBadge.astro";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects");
+  return projects.map((project) => ({
+    params: { slug: project.id },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+const {
+  title,
+  start_date,
+  end_date,
+  technologies,
+  roles,
+  context,
+  links,
+} = project.data;
+
+const fmtYear = (d?: string) => (d ? d.slice(0, 4) : undefined);
+const dateRange = [
+  fmtYear(start_date),
+  end_date ? fmtYear(end_date) : start_date ? "Now" : undefined,
+]
+  .filter(Boolean)
+  .join(" – ");
+---
+
+<Layout title={`${title} — Cole Crawford`}>
+  <article class="mx-auto max-w-3xl px-6 pt-12 pb-16">
+    <a
+      href="/projects"
+      class="inline-flex items-center gap-1 text-sm text-ink-500 hover:text-accent-600 transition"
+    >
+      ← All projects
+    </a>
+
+    <header class="mt-6">
+      <h1
+        class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight leading-tight"
+      >
+        {title}
+      </h1>
+      {
+        dateRange && (
+          <p class="mt-3 text-sm text-ink-500 font-medium">{dateRange}</p>
+        )
+      }
+    </header>
+
+    {
+      links.length > 0 && (
+        <div class="mt-6 flex flex-wrap gap-2">
+          {links.map((l) => (
+            <a
+              href={l.url}
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-1.5 rounded-full border border-ink-200 dark:border-ink-700 px-4 py-1.5 text-sm font-medium hover:border-accent-400 hover:text-accent-600 transition"
+            >
+              {l.link_title || "Visit site"}
+              <span aria-hidden="true">↗</span>
+            </a>
+          ))}
+        </div>
+      )
+    }
+
+    <div
+      class="prose prose-neutral dark:prose-invert mt-8 max-w-none prose-headings:font-serif prose-a:text-accent-600"
+    >
+      <Content />
+    </div>
+
+    <footer class="mt-12 space-y-6 border-t border-ink-100 dark:border-ink-700/50 pt-8">
+      {
+        technologies.length > 0 && (
+          <section>
+            <h2 class="text-xs uppercase tracking-widest text-ink-500 font-medium mb-3">
+              Technologies
+            </h2>
+            <div class="flex flex-wrap gap-2">
+              {technologies.map((t) => (
+                <TechBadge tech={t} />
+              ))}
+            </div>
+          </section>
+        )
+      }
+      {
+        roles.length > 0 && (
+          <section>
+            <h2 class="text-xs uppercase tracking-widest text-ink-500 font-medium mb-3">
+              Roles
+            </h2>
+            <div class="flex flex-wrap gap-2">
+              {roles.map((r) => (
+                <RoleBadge role={r} />
+              ))}
+            </div>
+          </section>
+        )
+      }
+      {
+        context.length > 0 && (
+          <section>
+            <h2 class="text-xs uppercase tracking-widest text-ink-500 font-medium mb-3">
+              Context
+            </h2>
+            <ul class="text-sm text-ink-500 space-y-1">
+              {context.map((c) => (
+                <li>{c}</li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </footer>
+  </article>
+</Layout>

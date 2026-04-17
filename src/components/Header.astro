@@ -1,0 +1,35 @@
+---
+const nav = [
+  { href: "/", label: "Home" },
+  { href: "/projects", label: "Projects" },
+];
+const path = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === "/" ? path === "/" : path.startsWith(href);
+---
+
+<header class="border-b border-ink-100/70 dark:border-ink-700/50 bg-ink-50/80 dark:bg-ink-900/70 backdrop-blur sticky top-0 z-10">
+  <div class="mx-auto max-w-5xl px-6 h-16 flex items-center justify-between">
+    <a
+      href="/"
+      class="font-serif text-xl tracking-tight hover:text-accent-600 transition"
+    >
+      Cole Crawford
+    </a>
+    <nav class="flex items-center gap-6 text-sm font-medium">
+      {
+        nav.map((item) => (
+          <a
+            href={item.href}
+            class:list={[
+              "hover:text-accent-600 transition",
+              isActive(item.href) && "text-accent-600",
+            ]}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>

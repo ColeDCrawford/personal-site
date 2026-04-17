@@ -1,0 +1,56 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { TECH } from "~/lib/tech";
+
+interface Props {
+  project: CollectionEntry<"projects">;
+  featured?: boolean;
+}
+const { project, featured = false } = Astro.props;
+const { title, technologies, start_date, end_date } = project.data;
+
+const year = (d?: string) => (d ? d.slice(0, 4) : undefined);
+const span = [year(start_date), end_date ? year(end_date) : start_date ? "Now" : undefined]
+  .filter(Boolean)
+  .join(" – ");
+---
+
+<a
+  href={`/projects/${project.id}`}
+  class:list={[
+    "group relative flex flex-col gap-3 rounded-2xl border border-ink-100/70 dark:border-ink-700/50 bg-white dark:bg-ink-900/60 p-6 shadow-sm hover:shadow-md hover:border-accent-400 transition",
+    featured && "sm:p-8",
+  ]}
+>
+  <div class="flex items-start justify-between gap-4">
+    <h3
+      class:list={[
+        "font-serif font-semibold text-ink-900 dark:text-ink-50 group-hover:text-accent-600 transition",
+        featured ? "text-2xl sm:text-3xl" : "text-xl",
+      ]}
+    >
+      {title}
+    </h3>
+    {span && <span class="shrink-0 text-xs text-ink-500 pt-2">{span}</span>}
+  </div>
+  {
+    technologies.length > 0 && (
+      <div class="mt-auto flex flex-wrap gap-1.5 pt-2">
+        {technologies.slice(0, 6).map((t) => {
+          const meta = TECH[t];
+          return meta ? (
+            <img
+              src={`/tech/${meta.file}`}
+              alt={meta.display}
+              title={meta.display}
+              width="24"
+              height="24"
+              loading="lazy"
+              class="w-6 h-6 object-contain opacity-80 group-hover:opacity-100 transition"
+            />
+          ) : null;
+        })}
+      </div>
+    )
+  }
+</a>
