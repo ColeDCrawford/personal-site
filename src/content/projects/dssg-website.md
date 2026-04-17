@@ -3,6 +3,7 @@ title: DSSG Website
 featured: false
 order: 9
 start_date: 2017-11-01
+end_date: 2025-04-30
 technologies:
   - php
   - wordpress

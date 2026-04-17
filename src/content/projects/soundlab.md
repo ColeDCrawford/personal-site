@@ -3,10 +3,12 @@ title: SoundLab
 featured: false
 order: 2
 start_date: 2017-08-01
+end_date: 2023-12-31
 technologies:
+  - php
   - react
-  - wordpress
   - svelte
+  - wordpress
 roles:
   - Frontend / CMS dev
   - Consultant

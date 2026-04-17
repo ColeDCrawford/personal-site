@@ -3,6 +3,7 @@ title: Cambridge Encyclopedia of Anthropology
 featured: false
 order: 17
 start_date: 2017-07-01
+end_date: 2019-12-31
 technologies:
   - drupal
   - jquery

@@ -3,6 +3,7 @@ title: Encyclopedia of the Variant Readings of the Qurʾān
 featured: false
 order: 20
 start_date: 2017-08-01
+end_date: 2025-04-30
 technologies:
   - react
   - rails
@@ -11,6 +12,8 @@ roles:
 context:
   - Harvard Arts and Humanities Research Computing
 links:
+  - link_title: EvQuran
+    url: "https://evquran.org/"
   - link_title: GitHub
     url: "https://github.com/artshumrc/evq"
 ---

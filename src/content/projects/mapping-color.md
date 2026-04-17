@@ -3,11 +3,13 @@ title: Mapping Color in History
 featured: true
 order: 8
 start_date: 2019-07-02
+end_date: 2025-04-30
 technologies:
-  - vue
   - django
-  - leaflet
+  - python
+  - vue
   - iiif
+  - leaflet
   - d3
   - docker
 roles:

@@ -3,6 +3,7 @@ title: Fanfiction Archive Navigation and Visualization (FANViz)
 featured: false
 order: 7
 start_date: 2019-04-01
+end_date: 2021-12-31
 technologies:
   - vue
   - flask

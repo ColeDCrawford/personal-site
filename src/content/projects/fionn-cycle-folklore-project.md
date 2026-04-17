@@ -3,14 +3,19 @@ title: Fionn Cycle Folklore Project
 featured: false
 order: 19
 start_date: 2020-06-01
+end_date: 2025-04-30
 technologies:
   - django
+  - python
+  - react
   - leaflet
 roles:
   - Consultant
 context:
   - Harvard Arts and Humanities Research Computing
 links:
+  - link_title: Fionn Folklore Database
+    url: "https://fionnfolklore.org/"
   - link_title: GitHub
     url: "https://github.com/artshumrc/fionn-cycle"
 ---

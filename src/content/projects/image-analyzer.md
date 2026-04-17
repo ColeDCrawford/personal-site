@@ -1,6 +1,6 @@
 ---
 title: Image Analyzer
-featured: true
+featured: false
 order: 5
 start_date: 2020-11-06
 end_date: 2020-12-18

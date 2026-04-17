@@ -9,6 +9,8 @@ technologies:
   - bootstrap
   - wordpress
   - javascript
+  - tei
+  - iiif
 roles:
   - Full Stack Dev
 context:

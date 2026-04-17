@@ -3,8 +3,11 @@ title: Digital Giza
 featured: true
 order: 18
 start_date: 2017-08-01
+end_date: 2025-04-30
 technologies:
   - django
+  - python
+  - javascript
   - jquery
   - elasticsearch
   - iiif
@@ -14,6 +17,8 @@ roles:
 context:
   - Harvard Arts and Humanities Research Computing
 links:
+  - link_title: Digital Giza
+    url: "https://giza.fas.harvard.edu/"
   - link_title: GitHub
     url: "https://github.com/rsinghal/giza"
 ---

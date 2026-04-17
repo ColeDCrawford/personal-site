@@ -1,6 +1,6 @@
 ---
 title: "Open Books: Conceptsearch"
-featured: true
+featured: false
 order: 22
 start_date: 2017-08-01
 end_date: 2019-05-31

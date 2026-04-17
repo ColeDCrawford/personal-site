@@ -3,14 +3,18 @@ title: Itelmen Audio-Visual Dictionary
 featured: false
 order: 21
 start_date: 2019-09-01
+end_date: 2025-04-30
 technologies:
   - django
+  - python
 roles:
   - Project Manager
   - Consultant
 context:
   - Harvard Arts and Humanities Research Computing
 links:
+  - link_title: Itelmen Audio-Visual Dictionary
+    url: "https://itelmen.fas.harvard.edu/iavd/en/"
   - link_title: GitHub
     url: "https://github.com/artshumrc/iavd-django"
 ---

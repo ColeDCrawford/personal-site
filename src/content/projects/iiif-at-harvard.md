@@ -3,6 +3,7 @@ title: IIIF at Harvard
 featured: false
 order: 6
 start_date: 2017-08-01
+end_date: 2025-04-30
 technologies:
   - wordpress
   - iiif
