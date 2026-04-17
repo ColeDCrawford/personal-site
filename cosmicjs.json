@@ -1,0 +1,6837 @@
+{
+  "bucket": {
+    "_id": "5fe02115bafa440007ae81f0",
+    "slug": "cole-portfolio",
+    "title": "Cole Portfolio",
+    "object_types": [
+      {
+        "title": "Projects",
+        "slug": "projects",
+        "singular": "Project",
+        "metafields": [
+          {
+            "children": null,
+            "type": "text",
+            "title": "video",
+            "key": "video",
+            "id": "wkxw3e1bapy8ettpzkak",
+            "object_type": "undefined",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "file",
+            "title": "images",
+            "key": "images",
+            "id": "rmi5bvam7rrz8lbw2jln",
+            "value": ""
+          },
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "s2zu4Ze9Jx",
+            "value": "",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "JKn9snWIV1",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "j1Byj6gR6S",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "tNiAGByVAX",
+            "value": [],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "EEwba9N61O",
+            "value": [],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "ZIdLliicOD",
+            "value": [],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "hxv0uSz5nY",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "options": {
+          "slug_field": 1,
+          "content_editor": 1
+        },
+        "preview_link": "",
+        "priority_locale": null,
+        "extensions": null,
+        "singleton": false,
+        "emoji": "\ud83d\udcc1",
+        "order": 0,
+        "localization": false,
+        "locales": null
+      }
+    ],
+    "objects": [
+      {
+        "_id": "60c9986397978400093d98e5",
+        "order": 0,
+        "slug": "eileen-southern-project",
+        "title": "Eileen Southern Project",
+        "content": "<p>A custom Omeka theme with timeline for the Eileen Southern Project.</p>",
+        "metafields": [
+          {
+            "children": null,
+            "type": "text",
+            "title": "video",
+            "key": "video",
+            "id": "wkxw3e1bapy8ettpzkak",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "file",
+            "title": "images",
+            "key": "images",
+            "id": "rmi5bvam7rrz8lbw2jln",
+            "value": ""
+          },
+          {
+            "children": [],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "s2zu4Ze9Jx",
+            "value": "",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "JKn9snWIV1",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "j1Byj6gR6S",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "tNiAGByVAX",
+            "value": [
+              "php",
+              "omeka"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "EEwba9N61O",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "ZIdLliicOD",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "hxv0uSz5nY",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2021-06-16T06:21:23.770Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2021-06-16T06:21:23.770Z",
+        "created": "2021-06-16T06:21:23.770Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2021-06-16T06:21:23.770Z"
+      },
+      {
+        "_id": "5fe03bdb3d226e000755ac44",
+        "order": 1,
+        "slug": "arttechpsyche",
+        "title": "ArtTechPsyche",
+        "content": "<p>ArtTechPsyche is an annual event which celebrates human expression at the intersection of technology and the arts through numerous immersive digital experiences, art installations, technology demos, and visionary speakers. Explore the creative process and its impact on emerging technologies. Discover the ways in which technology shapes us, and conversely, how the artist continually challenges and informs technological development. Interact with cutting edge art installations and software demos to experience the world in new ways. Meet like-minded faculty, staff, students, researchers, and colleagues of any skill level while exploring new projects and collaborations on and around campus.</p><p>ArtTechPsyche ran from 2015-2019 at Arts @ 29 Garden St, relocated to Cabot Science Library in 2019, and was cancelled in 2020 due to COVID-19.&nbsp;</p><p>I am a member of the organizing team, maintain the current event website and resurrected the 2015 and 2016 websites.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "ArtTechPsyche Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://arttechpsyche.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "ArtTechPsyche I (2015)",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://2015.arttechpsyche.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "ArtTechPsyche II (2016)",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://2016.arttechpsyche.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "P6HiuVwDzl",
+            "value": "ArtTechPsyche Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "qnHd4oR50l",
+            "value": "2017-10-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "EaxIjQKoxK",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "XqD9vOWZrw",
+            "value": [
+              "wordpress"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "GtbtBddaYk",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "Fzi5uZG7fP",
+            "value": [
+              "Frontend / CMS dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "nUCcg5UjdS",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T06:08:27.006Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:20:16.810Z",
+        "created": "2020-12-21T06:08:27.006Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:20:16.810Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe03b723d226e000755ac43",
+        "order": 2,
+        "slug": "soundlab",
+        "title": "SoundLab",
+        "content": "<p>The Sound Lab gives all Harvard affiliates access to cutting edge tools for audio capture and recording, digital media editing, as well as audio mixing, mastering, and restoration. It consists of four Mac-based workstations that run a variety of media production software including Avid&#39;s ProTools and Sibelius, Apple&#39;s Final Cut Pro and Logic Pro, Ableton Live, and Adobe&rsquo;s Creative Cloud.</p><p>The SoundLab website was originally built by Archimedes Digital on Wordpress + React; I maintain the current website and have done substantial extensions to it, including testing and integrating the Mixtape Maker application (Svelte), developed with Haroldson Art &amp; Design in 2020.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "SoundLab Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://soundlab.fas.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Mixtape Maker GitHub Repo",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/mixtape-maker",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "ljGBnbg1aU",
+            "value": "SoundLab Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "diazJzvf3X",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "6g6XSSwN2D",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "MCXEUEKQNO",
+            "value": [
+              "react",
+              "wordpress",
+              "svelte"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "T5X3FjrJXp",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "VUibjJtezg",
+            "value": [
+              "Frontend / CMS dev",
+              "Consultant",
+              "QA / Testing",
+              "Sys Admin / Dev Ops"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "qphnQcuaoc",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T06:06:42.170Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:22:43.322Z",
+        "created": "2020-12-21T06:06:42.170Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:22:43.322Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe03a9b8ac1450007f2d179",
+        "order": 3,
+        "slug": "lcpo",
+        "title": "Laboring-Class Poets Onlne",
+        "content": "<p><em>Laboring-Class Poets Online&nbsp;</em>is a substantial component of my MA thesis (2017, Oregon State University). It grew out of the work of John Goodridge, Bridget Keegan, and a team of eighteenth and nineteenth-century British literature scholars who compiled key biographical and bibliographic information on over 2,000 British working-class poets, such as vital dates, identity markers, occupations, interactions with other laboring-class writers and institutions, key publications, and secondary and reference sources.</p><p>From 2013-2015 I structured this data, and as part of my MA thesis I then created <em>LCPO,&nbsp;</em>a Drupal website which provides an accessible way for scholars to access the structured data through maps and other visualizations.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Laboring-Class Poets Online",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://lcpoets.org/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "fUqfHuQw31",
+            "value": "Laboring-Class Poets Online",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "5J92qsKEvZ",
+            "value": "2014-01-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "yUFFpDHqIB",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "GTuEYuqaQ2",
+            "value": [
+              "drupal",
+              "d3"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "ATtVeEV5Nk",
+            "value": [
+              "Creighton University Coursework",
+              "Oregon State University Coursework"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "JMZsvek51q",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "dEilEXkzZ5",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T06:03:07.009Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:27:48.026Z",
+        "created": "2020-12-21T06:03:07.009Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:27:48.026Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe039d98caffd00085581c9",
+        "order": 4,
+        "slug": "spotify-synaesthesia",
+        "title": "Spotify Synaesthesia",
+        "content": "<p>Analyze the features of albums and their art in your Spotify library to help identify playlist colors, and find more songs to add to your palette.</p><p>I did most of the backend of the site (data models in Flask, routes, API, search functions, etc).&nbsp;</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "http://spotify-synaesthesia.herokuapp.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/zphyrj/TeamC2",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "r5oYoXoKei",
+            "value": "Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "Wbo5OgWhBn",
+            "value": "2020-06-28"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "go3Y4JCT6h",
+            "value": "2020-08-07"
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "b3thfqNoKS",
+            "value": [
+              "flask",
+              "python"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "6yHDew9TNg",
+            "value": [
+              "Harvard University Extension School Coursework"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "TTjfJbgXOY",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "Be1JQXAtDp",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:59:53.152Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:30:02.196Z",
+        "created": "2020-12-21T05:59:53.152Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:30:02.196Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe038f18ac1450007f2d177",
+        "order": 5,
+        "slug": "image-analyzer",
+        "title": "Image Analyzer",
+        "content": "<p>Final project for CSCIE90 - Cloud Computing. This is an application which allows users to analyze images using AWS Rekognition to provide object label predictions and text recognition. The application is fully serverless, using Vue for the frontend and various AWS services (S3, API Gateway, DynamoDB, Rekognition, CloudFront, ACM, and Lambda) for the backend.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Image Analyzer",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "http://image-analyzer.coledcrawford.me/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "BAexHzlRew",
+            "value": "Image Analyzer",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "98Je8YwEfE",
+            "value": "2020-11-06"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "aR20ib0Kar",
+            "value": "2020-12-18"
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "9otSOpjEyS",
+            "value": [
+              "vue",
+              "dynamodb",
+              "rekognition",
+              "lambda"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "coISGjju4R",
+            "value": [
+              "Harvard University Extension School Coursework"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "TlUGWbgvJX",
+            "value": [
+              "Full Stack Dev",
+              "Sys Admin / Dev Ops"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "0QCgd4CRT2",
+            "value": true,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:56:01.143Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:33:12.769Z",
+        "created": "2020-12-21T05:56:01.143Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:33:12.769Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe038cd8ac1450007f2d176",
+        "order": 6,
+        "slug": "iiif-at-harvard",
+        "title": "IIIF at Harvard",
+        "content": "<p>The International Image Interoperability Framework (IIIF) defines universal standards for describing and delivering images over the web, and is the result of collaborative efforts across universities, museums, libraries, and other cultural heritage institutions around the world. The framework specifies two APIs, one for image retrieval and one for image display. Institutions that provide IIIF endpoints for their materials are able to share these materials with anyone worldwide using a IIIF-compatible viewer, which typically provide deep-zooming capabilities and other features such as image annotation. This provides an unprecedented level of exposure for archives and repositories.</p><p>I maintain the IIIF at Harvard website, which explains how various groups across the university are using IIIF in their teaching and research. The site was redesigned in 2019.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "IIIF at Harvard Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://iiif.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/iiif-harvard-wp",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "8jP46DdYNn",
+            "value": "IIIF at Harvard Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "RcBzj6ttWU",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "rfzqgHlZWY",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "QLonaX7Wk2",
+            "value": [
+              "wordpress",
+              "iiif"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "qsjtQTkS8Q",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "fOIT2XsUXP",
+            "value": [
+              "Frontend / CMS dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "9CuFAdWyDt",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:55:25.465Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:35:44.096Z",
+        "created": "2020-12-21T05:55:25.465Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:35:44.096Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe038498caffd00085581c8",
+        "order": 7,
+        "slug": "fanviz",
+        "title": "Fanfiction Archive Navigation and Visualization (FANViz)",
+        "content": "<p>Fanfiction Archive Navigation and Visualization (FANViz) is a tool which provides fan studies scholars with an accessible way to search and categorize sites which do not have robust native search engines, thus providing scholars a comprehensive data source. Much of fan studies is inherently qualitative due to the enormous effort required to quantify the vast amounts of data each archive contains. While we do not in any way seek to replace or diminish the work of qualitative research in the field, we do believe that quantitative data can only help expand the field.</p><p>Dr. Anna Wilson is the project PI; Noah Houghton was the primary developer on the project as an undergraduate intern I supervised over 2019-2020. I acted as a consultant and worked with FASRC to provision and set up the project infrastructure (Docker containers, Elasticsearch, Postgres, distributed computing on FASRC), and maintain the application.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Fanviz Site",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://fanviz.rc.fas.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/fanviz",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "D0WCnzlNhK",
+            "value": "Fanviz Site",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "bfwThVkLy1",
+            "value": "2019-04-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "nxZfdJ1lVt",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "5sbrOFMo9I",
+            "value": [
+              "vue",
+              "flask",
+              "elasticsearch",
+              "sql",
+              "python",
+              "d3",
+              "docker"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "XFR5V7iuE2",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "As2Ch5Kczv",
+            "value": [
+              "Project Manager",
+              "Consultant",
+              "Sys Admin / Dev Ops"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "2d6T0xKRIe",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:53:13.307Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:40:15.232Z",
+        "created": "2020-12-21T05:53:13.307Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:40:15.232Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe037a08caffd00085581c7",
+        "order": 8,
+        "slug": "mapping-color",
+        "title": "Mapping Color in History",
+        "content": "<p>Mapping Color in History is a digital humanities project that brings together the scientific data drawn from existing and ongoing material analyses of pigments in Asian painting in a historical perspective. Funding sources include the National Endowment for the Humanities, the Harvard Dean&#39;s Competitive Fund for Promising Scholarship, and the Harvard Barajas Dean&#39;s Innovation Fund for Digital Arts and Humanities.</p><p>Dr. Jinah Kim is the project PI. I am Digital Technology Coordinator for the project, maintaining the project infrastructure, testing features, providing feedback, designing D3 / Leaflet visualizations, and occasionally doing fullstack work in Django. MCiH is in active development, anticipating a public release in 2021.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/mapping-color-in-history",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Mapping Color in History Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "http://mappingcolor.fas.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "Fk5hXPAyJK",
+            "value": "GitHub",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "S4RUGzbBzR",
+            "value": "2019-07-02"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "UJXOz79RJ7",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "DJCFyhkEN4",
+            "value": [
+              "vue",
+              "django",
+              "leaflet",
+              "iiif",
+              "d3",
+              "docker"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "iEk6kE0iBr",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "wCKK4d8lTi",
+            "value": [
+              "Consultant",
+              "QA / Testing",
+              "Sys Admin / Dev Ops"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "yq7Ui256pZ",
+            "value": true,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:50:24.527Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:45:27.168Z",
+        "created": "2020-12-21T05:50:24.527Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:45:27.168Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe0373e8ac1450007f2d175",
+        "order": 9,
+        "slug": "dssg-website",
+        "title": "DSSG Website",
+        "content": "<p>The Digital Scholarship Support Group (DSSG) brings together Harvard faculty and staff with expertise in a host of technical, pedagogical, and subject-specific areas across disciplinary and divisional borders, to provide faculty, students, and staff interested in incorporating digital methods into their teaching and research with a single point of entry to the many resources available at Harvard.</p><p>Since 2020, I have worked as the staff co-chair of the DSSG, focusing on a certificate program for Harvard affiliates and expanding our workshop offerings. I developed and designed the DSSG website and continue to maintain this resource, as well as the GitHub organization.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "DSSG Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://dssg.fas.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "3UfUiaenQz",
+            "value": "DSSG Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "owLP52nltE",
+            "value": "2017-11-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "dL2FrsNy2Z",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "PBlio2KxIa",
+            "value": [
+              "php",
+              "wordpress"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "ozPHhQtPJM",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "YP7dqOpqQL",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "AwnAYorNST",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:48:46.951Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:47:56.141Z",
+        "created": "2020-12-21T05:48:46.951Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:47:56.141Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe037038ac1450007f2d174",
+        "order": 10,
+        "slug": "darth",
+        "title": "DARTH Website",
+        "content": "<p>The website for Harvard Arts and Humanities Research Computing, informally known as Digital Arts and Humanities (DARTH). I am currently doing a major overhaul to the site, to be released in 2021.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "DARTH Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://darthcrimson.org/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "tMnhQQnnWT",
+            "value": "DARTH Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "o00WBDUCJU",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "9FE9QdGOke",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "noNKDe8drQ",
+            "value": [
+              "php",
+              "wordpress"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "r6dj9O5zUn",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "1B55lnZXFH",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "7t2qfR2kgv",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:47:47.364Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:18:20.093Z",
+        "created": "2020-12-21T05:47:47.364Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:18:20.093Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe036ac8caffd00085581c6",
+        "order": 11,
+        "slug": "adho",
+        "title": "Alliance of Digital Humanities Organizations Website",
+        "content": "<p>The Alliance of Digital Humanities Organizations (ADHO) is the primary Digital Humanities group worldwide, and runs the annual DH conference. From 2017-2019 I was an volunteer web developer for the ADHO Drupal site and served on the advisory board.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "ADHO Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "http://adho.org/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "Xd5uLdT7q3",
+            "value": "ADHO Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "nOiYX6767x",
+            "value": "2017-01-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "lExo09eSbA",
+            "value": "2019-12-31"
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "sGx8vGKOWl",
+            "value": [
+              "drupal"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "f1zKiLI6ne",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "bZf1uxs6Ka",
+            "value": [
+              "Frontend / CMS dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "4HVKhwnyVq",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:46:20.080Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:49:21.843Z",
+        "created": "2020-12-21T05:46:20.080Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:49:21.843Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe0363d8caffd00085581c5",
+        "order": 12,
+        "slug": "shariasource",
+        "title": "SHARIAsource",
+        "content": "<p>SHARIAsource is a project of the Program in Islamic Law at Harvard Law School, that aims to provide comprehensive content and context on Islamic law in a way that is accessible and useful. It is a Portal into the digital world of Islamic legal studies and related tools from data science and AI. Working with a global team of advisors, senior scholars, and editors, our mission is to organize the world&rsquo;s information on Islamic law.</p><p>I have worked for PIL as a web developer and IT consultant since 2020, and am the maintainer of SHARIAsource and primary developer for new functionality.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "SHARIAsource Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://beta.shariasource.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "4VwSajSPwQ",
+            "value": "SHARIAsource Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "lrRjYHbprh",
+            "value": "2020-07-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "BEoTawLrcP",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "tY3KToJlxT",
+            "value": [
+              "rails",
+              "jquery",
+              "sql"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "N42dS9Mb6F",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "Wtjye7oHuQ",
+            "value": [
+              "Full Stack Dev",
+              "Consultant"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "1dvnvvsvSZ",
+            "value": true,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:44:29.937Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:51:28.790Z",
+        "created": "2020-12-21T05:44:29.937Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:51:28.790Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe035df8caffd00085581c4",
+        "order": 13,
+        "slug": "courts-and-canons",
+        "title": "Courts and Canons",
+        "content": "<p>The SHARIAsource project, based at the Program in Islamic Law at Harvard Law School, aims to provide tools to support scholarship relevant to 1400 years of Islamic legal history, including search, visualization and analysis tools. Courts and Canons is a component of the SHARIAsource project, which I worked on as a consultant and deployed as part of my work with PIL.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Courts and Canons Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://courtsandcanons.shariasource.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "A70X9zbco6",
+            "value": "Courts and Canons Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "GPsG8jsw0s",
+            "value": "2020-02-03"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "lgAbKZU3PV",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "f876SwX2re",
+            "value": [
+              "react",
+              "rails",
+              "sql"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "EHU5rVX7DS",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "KyUPYquSzu",
+            "value": [
+              "Consultant",
+              "QA / Testing"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "1pi76yjfv1",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:42:55.109Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:52:38.405Z",
+        "created": "2020-12-21T05:42:55.109Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:52:38.405Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe035978caffd00085581c3",
+        "order": 14,
+        "slug": "harvard-islamic-law-blog",
+        "title": "Harvard Islamic Law Blog",
+        "content": "<p>A Wordpress blog for the PIL program which includes expert commentary, roundtables, podcasts, and other digital resources. Widely used (multiple posts and 1000s of views per day). I am the primary developer and maintainer, and migrated it from Wordpress.com to WPEngine in 2020.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "PIL Blog",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://islamiclaw.blog/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "vKVpqRwZVd",
+            "value": "PIL Blog",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "7dBVdyVBJC",
+            "value": "2020-07-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "cZcsnS4d3j",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "XEXGZgIucz",
+            "value": [
+              "wordpress",
+              "jquery"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "Gzb5J6wiuS",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "5v0nu5v7pJ",
+            "value": [
+              "Frontend / CMS dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "KWvC1vnD3g",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:41:43.723Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:56:17.306Z",
+        "created": "2020-12-21T05:41:43.723Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:56:17.306Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe0356d8ac1450007f2d173",
+        "order": 15,
+        "slug": "pil-website",
+        "title": "Harvard Program in Islamic Law Website",
+        "content": "<p>The main website for the Harvard Law School Program in Islamic Law.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "PIL Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://pil.law.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "E1fgJZvYgG",
+            "value": "PIL Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "goyjLM0cC3",
+            "value": "2020-07-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "R7ivJ7cycy",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "P1X6BRvWCy",
+            "value": [
+              "php",
+              "wordpress"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "uQCQhws2bh",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "4RoF0Jqa97",
+            "value": [
+              "Frontend / CMS dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "MqLwGHTwjN",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:41:01.707Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:16:40.232Z",
+        "created": "2020-12-21T05:41:01.707Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:16:40.232Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe034fe8ac1450007f2d171",
+        "order": 16,
+        "slug": "snitching",
+        "title": "Snitching.org",
+        "content": "<p>A website migration from Blogger to Wordpress.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://snitching.org/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "zk8PszrRRF",
+            "value": "Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "6P5CIitMux",
+            "value": "2020-09-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "C63Q8h88RG",
+            "value": "2020-12-18"
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "zHQC1JFxBA",
+            "value": [
+              "wordpress"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "bgcIUlclXn",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "2AM9hMZp3Q",
+            "value": [
+              "Frontend / CMS dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "pYKBfKSvsv",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:39:10.724Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:16:17.598Z",
+        "created": "2020-12-21T05:39:10.724Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:16:17.598Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe034ab8caffd00085581c2",
+        "order": 17,
+        "slug": "cea",
+        "title": "Cambridge Encyclopedia of Anthropology",
+        "content": "<p>The Cambridge Encyclopedia of Anthropology (CEA) is a growing open-access teaching and learning resource. Its goal is to facilitate access to scholarship in Social Anthropology for experts and non-experts worldwide. All entries are written and peer-reviewed by leading academics.</p><p>I have worked as the primary site maintainer / developer / general IT support on the CEA since 2017.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Encyclopedia Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://www.anthroencyclopedia.com/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "OUcovDLFu9",
+            "value": "Encyclopedia Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "0Mp6rd7INa",
+            "value": "2017-07-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "HYdqJNBUqV",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "BJZrwAJk49",
+            "value": [
+              "drupal",
+              "jquery"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "HbJjy5fY9Y",
+            "value": [
+              "Freelance"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "ndnJ0elbYP",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "bW0nEKjpMV",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:37:47.241Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:57:40.343Z",
+        "created": "2020-12-21T05:37:47.241Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:57:40.343Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe034698ac1450007f2d16f",
+        "order": 18,
+        "slug": "digital-giza",
+        "title": "Digital Giza",
+        "content": "<p>The Giza Project is a non-profit international initiative based at Harvard University. Through digital archaeology, we assemble, curate, and present archaeological records about one of the most famous archaeological sites in the world, the Giza Pyramids and surrounding cemeteries and settlements. The Project manages arguably the world&rsquo;s largest digital archive of Giza material. We use this data to build immersive 3D model reconstructions and other media as we develop powerful new teaching technologies and research tools.</p><p>I have been a consultant on the Giza Project since 2017, and have been heavily involved in the recent work done as part of an NEH grant in 2019 and 2020 as a technical project manager and developer.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/rsinghal/giza",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "NYgullXbot",
+            "value": "GitHub",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "3HjTdCofpi",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "FUT4A0RMik",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "BR84ndgsK2",
+            "value": [
+              "django",
+              "jquery",
+              "elasticsearch",
+              "iiif"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "wgiUgN5Y4E",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "3a8qfc2tRB",
+            "value": [
+              "Full Stack Dev",
+              "Consultant"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "D0iE5fuYp4",
+            "value": true,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:36:41.949Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T19:59:46.838Z",
+        "created": "2020-12-21T05:36:41.949Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T19:59:46.838Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe0340a8caffd00085581c1",
+        "order": 19,
+        "slug": "fionn-cycle-folklore-project",
+        "title": "Fionn Cycle Folklore Project",
+        "content": "<p>The Fionn Cycle Folklore Project has a catalogue of ~4,000 records relating to Fenian folklore resources preserved in archives, and in published sources. These records are classified by type, form, country, institution/collection, and by information about their location, and associated people (collector, source, informant).</p><p>The project (PI: Natasha Sumner) is in active development, and should be released in 2021. I am the primary technical consultant / project manager on the Harvard side, and maintain the project infrastructure.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/fionn-cycle",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "6iZhSU4yoH",
+            "value": "GitHub",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "eTBbYRR41F",
+            "value": "2020-06-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "4lCUMKc9ib",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "BN2o2jglov",
+            "value": [
+              "django",
+              "leaflet"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "lSPyZrzBgb",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "nq2udSXNCd",
+            "value": [
+              "Consultant"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "xBGjREIiAb",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:35:06.480Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:01:30.914Z",
+        "created": "2020-12-21T05:35:06.480Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:01:30.914Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe033b18caffd00085581c0",
+        "order": 20,
+        "slug": "evq",
+        "title": "Encyclopedia of the Variant Readings of the Qur\u02be\u0101n",
+        "content": "<p>Since the publication of the 1923 first official Egyptian print of the Qur\u02be\u0101n, most Arabs<br>and Muslims became familiar with only one variety of the Qur\u02be\u0101n. This variety is one out of<br>twenty other standard varieties of the Qur\u02be\u0101n all acknowledged by Muslim orthodoxy. The<br>demarcation of what is canonical and what is not was not applied systematically throughout the Muslim world over the past 14 centuries. Up until the 20th century, Muslims recited, memorized, &nbsp;and taught many other varieties of the Qur\u02be\u0101n, varieties or Readings which are nowadays considered to be obsolete and non-canonical. It was only after the publication of the official Qur\u02be\u0101n by al-Azhar-Egypt in 1923, and the first complete Audio recording of the whole Qur\u02be\u0101n by the renowned Egyptian Qur\u02be\u0101n reciter al-\u1e24u\u1e63ar\u012b, that the other system Readings of the Qur\u02be\u0101n were eclipsed by the now &ldquo;official&rdquo; version, to the extent that most of these variants became forgotten and unknown to the modern lay Muslim and even scholars of Islam.</p><p>The Encyclopedia of the Variant Readings of the Qur\u02be\u0101n (EvQ) aims to be the<br>foundation of a critical edition of the Qur\u02be\u0101n. The unsuccessful scholarly attempts to establish anything close to a critical edition were/are mainly due to the conventionally held notion that critical editions must rely on physical manuscripts. The main obstacle that scholars face is the fact that the Qur\u02be\u0101n, as we know it today and as it existed for centuries, is not based on a Masoretic tradition. The most important defining characteristic of the Qur\u02be\u0101n is often neglected, namely, its orality. EvQ provides a flexible online interface through which one can easily utilize the data, including audio recordings and various visualizations.</p><p>Shady Nasser (PI) has worked with DARTH on this project since 2017. I am a consultant on the project. We expect to release the project for public use in 2021.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/evq",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "AH67KuOycs",
+            "value": "GitHub",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "ZRo2MWeHNB",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "8Ata1QB3TS",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "Bt8cbjlLwo",
+            "value": [
+              "react",
+              "rails"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "PYYKufApLs",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "rhfSKfXnOk",
+            "value": [
+              "Consultant"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "2Q2fuQ5ljr",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:33:37.653Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:22:10.435Z",
+        "created": "2020-12-21T05:33:37.653Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:22:10.435Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe033638ac1450007f2d16d",
+        "order": 21,
+        "slug": "itelmen-audio-visual-dictionary",
+        "title": "Itelmen Audio-Visual Dictionary",
+        "content": "<p>The Itelmen Audio-Visual Dictionary is an online repository of multimedia documentation of Itelmen, a highly endangered language spoken by a small community on the Kamchatka Peninsula in Russia&#39;s far northeast.</p><p>IAVD is in active development, and should be released in 2021. I am the primary technical consultant / QA and project manager, and will maintain the project infrastructure.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/iavd-django",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "MaTiSkU9Nk",
+            "value": "GitHub",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "WIOSNiWaKH",
+            "value": "2019-09-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "6MEe6NKr9W",
+            "value": ""
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "k7dP94s814",
+            "value": [
+              "django"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "DHFetA015y",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "ZatBrGTnoK",
+            "value": [
+              "Project Manager",
+              "Consultant"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "zHxJpPygbd",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:32:19.451Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:15:52.299Z",
+        "created": "2020-12-21T05:32:19.451Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:15:52.299Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe0326f8ac1450007f2d16a",
+        "order": 22,
+        "slug": "open-books-conceptsearch",
+        "title": "Open Books: Conceptsearch",
+        "content": "<p>The ConceptSearch / Open Books website allows users to quickly query the ECCO (Eighteenth Century Collections Online) corpus of over 200,000 novels split into millions of passages, drilling down into the dataset to find relevant passages. The technique allows users to construct searches from entire passages rather than just keywords, or recursively build up searches. The site also includes many filters and some experimental datavis of vectorized passages.</p><p>I was a lead developer on the project, provisioned the Elasticsearch and Elastic Beanstalk infrastructure, and worked on both Django and NLP features. Dr. Stephen Osadetz (PI), Christine Fensebrener-Eslao, and I presented on the project at DH 2018 Mexico City.</p>",
+        "metafields": [
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Project Website",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://conceptsearch.fas.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/conceptsearch",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "LQjO9BcGSe",
+            "value": "Project Website",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "jYd7pty3Eh",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "qbC3flpRMr",
+            "value": "2019-05-31"
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "6ohvR1g6tx",
+            "value": [
+              "django",
+              "elasticsearch",
+              "sql",
+              "python",
+              "nltk"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "1stvPPnf3j",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "DZ55t6awvk",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "7b1XictwcE",
+            "value": true,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:28:15.284Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:18:26.757Z",
+        "created": "2020-12-21T05:28:15.284Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "published_at": "2020-12-27T20:18:26.757Z",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null
+      },
+      {
+        "_id": "5fe02fe8db024a0007265ef9",
+        "order": 23,
+        "slug": "digital-editing-medieval-mary-magdalene",
+        "title": "Digital Editing: Medieval Mary Magdalene",
+        "content": "<p>The Exploring Medieval Mary Magdalene project is an online collection of digital editions containing the legend of Mary Magdalene&rsquo;s conversion. The project began as the focus of a year-long graduate student seminar held in Harvard&rsquo;s German Department and conducted by Prof. Racha Kirakosian. Together, this team of philologists and digital humanists has striven to make available the linguistically diverse manuscripts containing this little-known legend in an interactive and fully-searchable format that surpasses the limitations of traditional printed critical editions.</p><p>I was the primary technical contact for the project; I developed the custom manuscript viewer, customized and developed the TEI editing platform, created the Wordpress site, and maintain the IIIF / website infrastructure. The project is migrating with Dr. Kirakosian to Freiburg in 2021.</p>",
+        "metafields": [
+          {
+            "children": null,
+            "type": "text",
+            "title": "Title",
+            "key": "title",
+            "id": "y3jy4WqH7t",
+            "value": "Digital Editing: Medieval Mary Magdalene",
+            "required": true
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "Start Date",
+            "key": "start_date",
+            "id": "65JDelSSYi",
+            "value": "2017-08-01"
+          },
+          {
+            "children": null,
+            "type": "date",
+            "title": "End Date",
+            "key": "end_date",
+            "id": "dZviaMf06H",
+            "value": "2020-12-31"
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Technologies",
+            "key": "technologies",
+            "id": "X9rXW2lIFI",
+            "value": [
+              "nodejs",
+              "bootstrap",
+              "wordpress",
+              "javascript"
+            ],
+            "options": [
+              {
+                "value": "vue"
+              },
+              {
+                "value": "react"
+              },
+              {
+                "value": "php"
+              },
+              {
+                "value": "nodejs"
+              },
+              {
+                "value": "flask"
+              },
+              {
+                "value": "django"
+              },
+              {
+                "value": "drupal"
+              },
+              {
+                "value": "omeka"
+              },
+              {
+                "value": "bootstrap"
+              },
+              {
+                "value": "scalar"
+              },
+              {
+                "value": "rails"
+              },
+              {
+                "value": "jekyll"
+              },
+              {
+                "value": "wordpress"
+              },
+              {
+                "value": "jquery"
+              },
+              {
+                "value": "elasticsearch"
+              },
+              {
+                "value": "sql"
+              },
+              {
+                "value": "dynamodb"
+              },
+              {
+                "value": "ec2"
+              },
+              {
+                "value": "rekognition"
+              },
+              {
+                "value": "lambda"
+              },
+              {
+                "value": "python"
+              },
+              {
+                "value": "nltk"
+              },
+              {
+                "value": "spacy"
+              },
+              {
+                "value": "leaflet"
+              },
+              {
+                "value": "iiif"
+              },
+              {
+                "value": "d3"
+              },
+              {
+                "value": "svelte"
+              },
+              {
+                "value": "docker"
+              },
+              {
+                "value": "s3"
+              },
+              {
+                "value": "javascript"
+              },
+              {
+                "value": "tei"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Context",
+            "key": "context",
+            "id": "eRNn5FxReo",
+            "value": [
+              "Harvard Arts and Humanities Research Computing"
+            ],
+            "options": [
+              {
+                "value": "Creighton University Coursework"
+              },
+              {
+                "value": "Oregon State University Coursework"
+              },
+              {
+                "value": "Oregon State University Library - Internship"
+              },
+              {
+                "value": "Harvard Arts and Humanities Research Computing"
+              },
+              {
+                "value": "Freelance"
+              },
+              {
+                "value": "Harvard University Extension School Coursework"
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "check-boxes",
+            "title": "Roles",
+            "key": "roles",
+            "id": "ySpMWOSiX9",
+            "value": [
+              "Full Stack Dev"
+            ],
+            "options": [
+              {
+                "value": "Full Stack Dev"
+              },
+              {
+                "value": "Project Manager"
+              },
+              {
+                "value": "Backend Dev"
+              },
+              {
+                "value": "Frontend / CMS dev"
+              },
+              {
+                "value": "Consultant"
+              },
+              {
+                "value": "QA / Testing"
+              },
+              {
+                "value": "Sys Admin / Dev Ops"
+              }
+            ]
+          },
+          {
+            "children": [
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "Manuscript Viewer",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://digital-editing.fas.harvard.edu/",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "TEI Editor - GitHub",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/tei-web-editor",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              },
+              {
+                "type": "repeating_item",
+                "children": [
+                  {
+                    "title": "Link Title",
+                    "key": "link_title",
+                    "value": "GitHub - Digital Edition Viewer",
+                    "type": "text",
+                    "required": false
+                  },
+                  {
+                    "title": "URL",
+                    "key": "url",
+                    "value": "https://github.com/artshumrc/ms-viewer",
+                    "type": "text",
+                    "required": false
+                  }
+                ]
+              }
+            ],
+            "type": "repeater",
+            "title": "Links",
+            "key": "links",
+            "id": "eSoQWBXUgO",
+            "value": "Manuscript Viewer",
+            "repeater_fields": [
+              {
+                "title": "Link Title",
+                "key": "link_title",
+                "value": "",
+                "type": "text",
+                "required": false
+              },
+              {
+                "title": "URL",
+                "key": "url",
+                "value": "",
+                "type": "text",
+                "required": false
+              }
+            ]
+          },
+          {
+            "children": null,
+            "type": "switch",
+            "title": "Featured",
+            "key": "featured",
+            "id": "8Wop1KVpkP",
+            "value": false,
+            "options": "yes,no"
+          }
+        ],
+        "bucket": "5fe02115bafa440007ae81f0",
+        "type_slug": "projects",
+        "created_at": "2020-12-21T05:17:28.310Z",
+        "created_by": "5fe0209fa611e500074dcd08",
+        "modified_at": "2020-12-27T20:04:18.551Z",
+        "created": "2020-12-21T05:17:28.310Z",
+        "user_id": "5fe0209fa611e500074dcd08",
+        "options": {
+          "content_editor": 1,
+          "slug_field": 1
+        },
+        "status": "published",
+        "thumbnail": "",
+        "modified_by": "5fe0209fa611e500074dcd08",
+        "publish_at": null,
+        "unpublish_at": null,
+        "published_at": "2020-12-27T20:04:18.551Z"
+      }
+    ],
+    "media": []
+  }
+}
