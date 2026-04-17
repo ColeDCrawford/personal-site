@@ -38,21 +38,30 @@ const span =
   </div>
   {
     technologies.length > 0 && (
-      <div class="mt-auto flex flex-wrap gap-1.5 pt-2">
-        {technologies.slice(0, 6).map((t) => {
-          const meta = TECH[t];
-          return meta ? (
-            <img
-              src={`/tech/${meta.file}`}
-              alt={meta.display}
-              title={meta.display}
-              width="24"
-              height="24"
-              loading="lazy"
-              class="w-6 h-6 object-contain opacity-80 group-hover:opacity-100 transition"
-            />
-          ) : null;
-        })}
+      <div class="mt-auto flex flex-wrap items-center gap-1.5 pt-2">
+        {technologies
+          .map((t) => ({ key: t, meta: TECH[t] }))
+          .map(({ key, meta }) =>
+            meta?.file ? (
+              <img
+                src={`/tech/${meta.file}`}
+                alt={meta.display}
+                title={meta.display}
+                width="24"
+                height="24"
+                loading="lazy"
+                class="w-6 h-6 object-contain opacity-80 group-hover:opacity-100 transition"
+              />
+            ) : (
+              <span
+                class="rounded-full bg-ink-100/80 dark:bg-ink-700/40 px-2 py-0.5 text-[0.65rem] font-medium"
+                title={meta?.display ?? key}
+              >
+                {meta?.display ?? key}
+              </span>
+            ),
+          )
+          .slice(0, 6)}
       </div>
     )
   }
