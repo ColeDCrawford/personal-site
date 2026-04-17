@@ -8,7 +8,8 @@ technologies:
   - php
   - wordpress
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
 context:
   - Harvard Arts and Humanities Research Computing
 links:

@@ -10,7 +10,8 @@ technologies:
   - rekognition
   - lambda
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
   - Sys Admin / Dev Ops
 context:
   - Harvard University Extension School Coursework

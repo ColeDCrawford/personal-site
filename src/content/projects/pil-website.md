@@ -7,7 +7,7 @@ technologies:
   - php
   - wordpress
 roles:
-  - Frontend / CMS dev
+  - CMS development
 context:
   - Freelance
 links:

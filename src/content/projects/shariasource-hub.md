@@ -12,7 +12,8 @@ technologies:
   - terraform
   - s3
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
 context:
   - Harvard Law School
 links:

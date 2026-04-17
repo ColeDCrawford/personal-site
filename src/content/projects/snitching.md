@@ -7,7 +7,7 @@ end_date: 2020-12-18
 technologies:
   - wordpress
 roles:
-  - Frontend / CMS dev
+  - CMS development
 context:
   - Freelance
 links:

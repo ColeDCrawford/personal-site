@@ -8,7 +8,8 @@ technologies:
   - jquery
   - sql
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
   - Consultant
 context:
   - Freelance

@@ -8,7 +8,8 @@ technologies:
   - drupal
   - jquery
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
 context:
   - Freelance
 links:

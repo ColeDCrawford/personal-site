@@ -7,7 +7,8 @@ end_date: 2025-04-30
 technologies:
   - astro
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
 context:
   - Harvard Arts and Humanities Research Computing
 links:

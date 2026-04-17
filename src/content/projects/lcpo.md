@@ -7,7 +7,8 @@ technologies:
   - drupal
   - d3
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
 context:
   - Creighton University Coursework
   - Oregon State University Coursework

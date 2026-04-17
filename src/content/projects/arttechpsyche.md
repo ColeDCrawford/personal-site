@@ -7,7 +7,7 @@ end_date: 2023-12-31
 technologies:
   - wordpress
 roles:
-  - Frontend / CMS dev
+  - CMS development
 context:
   - Harvard Arts and Humanities Research Computing
 links:

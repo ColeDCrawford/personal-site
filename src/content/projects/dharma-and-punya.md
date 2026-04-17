@@ -8,7 +8,8 @@ technologies:
   - wordpress
   - php
 roles:
-  - Frontend / CMS dev
+  - CMS development
+  - Frontend
 context:
   - Harvard Arts and Humanities Research Computing
 links:

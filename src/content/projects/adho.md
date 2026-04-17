@@ -7,7 +7,7 @@ end_date: 2019-12-31
 technologies:
   - drupal
 roles:
-  - Frontend / CMS dev
+  - CMS development
 context:
   - Freelance
 links:

@@ -8,7 +8,8 @@ technologies:
   - flask
   - python
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
 context:
   - Harvard University Extension School Coursework
 links:

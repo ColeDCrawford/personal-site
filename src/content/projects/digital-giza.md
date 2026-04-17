@@ -12,7 +12,8 @@ technologies:
   - elasticsearch
   - iiif
 roles:
-  - Full Stack Dev
+  - Backend
+  - Frontend
   - Consultant
 context:
   - Harvard Arts and Humanities Research Computing

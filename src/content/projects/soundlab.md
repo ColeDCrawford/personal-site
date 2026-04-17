@@ -10,7 +10,8 @@ technologies:
   - svelte
   - wordpress
 roles:
-  - Frontend / CMS dev
+  - CMS development
+  - Frontend
   - Consultant
   - QA / Testing
   - Sys Admin / Dev Ops

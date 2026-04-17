@@ -7,7 +7,7 @@ technologies:
   - wordpress
   - jquery
 roles:
-  - Frontend / CMS dev
+  - CMS development
 context:
   - Freelance
 links:
