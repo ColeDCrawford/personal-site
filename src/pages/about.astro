@@ -1,54 +1,100 @@
 ---
 import Layout from "~/layouts/Layout.astro";
 
-const roles = [
+const experience = [
   {
     title: "Staff AI Engineer",
     org: "Reify Health",
     dates: "2026 – Present",
     blurb:
-      "Building AI systems in the clinical research / decentralized trials space.",
+      "Applied AI for managing clinical trials.",
   },
   {
-    title: "Senior AI Engineer",
-    org: "Wood Mackenzie",
-    dates: "2025 – 2026",
+    title: "Senior AI Software Engineer",
+    org: "Wood Mackenzie · Core AI Platform",
+    dates: "Apr 2025 – Apr 2026",
     blurb:
-      "Led internal AI orchestration and retrieval platforms (Woody, Quarry) — agentic frameworks and document processing at enterprise scale, on AWS Bedrock, Strands, and CDK.",
+      "First hire on the newly-formed Core AI Platform team. Led the ground-up redesign of Woody — Woodmac's internal chatbot and agentic AI framework — and built Quarry, a document-processing and retrieval system that unified search across the firm's content.",
+  },
+  {
+    title: "Senior Software Engineer",
+    org: "Harvard — Arts & Humanities Research Computing",
+    dates: "Jul 2023 – Apr 2025",
+    blurb:
+      "Technical lead for the DARTH engineering team. Mentored engineers, led multiple full stack projects from inception to sunsetting, planned long-term digital scholarship strategy with the Library and HUIT, and served on the steering committee of the DHTech ADHO Special Interest Group.",
+  },
+  {
+    title: "Software Engineer",
+    org: "Harvard — Arts & Humanities Research Computing",
+    dates: "Mar 2021 – Jul 2023",
+    blurb:
+      "Built custom web applications, text-analysis pipelines, data models, and visualizations for FAS faculty. Maintained the group's AWS infrastructure (ECS Fargate) and GitHub org. Co-chaired the Digital Scholarship Support Group and launched a Digital Scholarship Graduate Certificate.",
+  },
+  {
+    title: "Humanities Research Computing Specialist",
+    org: "Harvard — Arts & Humanities Research Computing",
+    dates: "Aug 2017 – Mar 2021",
+    blurb:
+      "Consulted on FAS digital projects end-to-end, connected faculty with Harvard Library and HUIT resources, and led workshops on digital research methods, tools, and programming.",
   },
   {
     title: "Founder & Principal",
     org: "Hapax Digital",
-    dates: "2024 – Present",
+    dates: "2026 – Present",
     blurb:
       "An AI and software-engineering consultancy focused on digital humanities and ed-tech projects. Current engagement: an agentic system for Jesuit formation at Saint Louis University.",
-  },
-  {
-    title: "Technical Director / Senior Developer",
-    org: "Harvard — Arts and Humanities Research Computing (DARTH)",
-    dates: "2017 – 2025",
-    blurb:
-      "Built and maintained ~20 research platforms in the arts & humanities — digital archives, TEI editing, IIIF image delivery, NLP-driven search, and data visualization. Django, React, Vue, AWS, Elasticsearch.",
   },
 ];
 
 const education = [
   {
-    degree: "M.A., English (Literature and Culture)",
-    school: "Oregon State University",
-    year: "2017",
+    degree: "Master of Liberal Arts, Software Engineering",
+    school: "Harvard Extension School",
+    year: "2017 – 2023",
   },
   {
-    degree: "B.S., Computer Science & English (honors, summa cum laude)",
-    school: "Creighton University",
-    year: "2015",
+    degree: "M.A., English (Literature and Culture)",
+    school: "Oregon State University",
+    year: "2015 – 2017",
+  },
+  {
+    degree:
+      "B.S., Computer Science & Informatics; English (British Literature)",
+    school: "Creighton University · Honors, summa cum laude",
+    year: "2011 – 2015",
+  },
+];
+
+const publications = [
+  {
+    title: "DH Inside Out",
+    venue: "",
+  },
+  {
+    title: "Undate: Humanistic Dates for Computation",
+    venue: "",
+  },
+  {
+    title:
+      "Exploring Big and Boutique Data through Laboring-Class Poets Online",
+    venue: "",
+  },
+  {
+    title:
+      "Connecting Art and Science for Humanities Research: Mapping Color in History",
+    venue: "",
+  },
+  {
+    title:
+      "Transforming Working Class Writers and Writing",
+    venue: "in A History of British Working Class Literature, Cambridge UP",
   },
 ];
 ---
 
 <Layout
   title="About — Cole Crawford"
-  description="Cole Crawford — Staff AI Engineer, consultant, and recovering digital humanist."
+  description="Cole Crawford — Staff AI Engineer at Reify Health, consultant at Hapax Digital, and former Harvard research software engineer."
 >
   <section class="mx-auto max-w-3xl px-6 pt-16 pb-10">
     <h1 class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">
@@ -57,18 +103,22 @@ const education = [
 
     <div class="mt-8 space-y-5 text-lg text-ink-700 dark:text-ink-100 leading-relaxed">
       <p>
-        I'm Cole. I build AI systems for a living — currently as Staff AI
-        Engineer at <strong>Reify Health</strong>, where I work on applied AI
-        in decentralized clinical trials.
+        I'm Cole, a software engineer focused on building GenAI systems for
+        the web. I work primarily on the backend these days, with deep
+        experience across frontend, DevOps, NLP, data visualization, and
+        project management from years of shipping production systems for
+        research.
       </p>
       <p>
-        Before Reify I was Senior AI Engineer at <strong>Wood Mackenzie</strong>,
-        building internal agentic platforms and retrieval systems for a team of
-        analysts across energy and natural resources. Before that, I spent
-        eight years at <strong>Harvard</strong>'s Arts and Humanities Research
-        Computing group (DARTH), where I built roughly twenty research
-        platforms for humanists — digital archives, TEI-driven editing, IIIF
-        image delivery, NLP-driven search, and a lot of data visualization.
+        I'm currently a Staff AI Engineer at <strong>Reify Health</strong>,
+        working on applied AI for managing clinical trials. Before Reify I
+        was a Senior AI Software Engineer at <strong>Wood Mackenzie</strong>,
+        the first hire on their new Core AI Platform team — leading the
+        redesign of Woody, their internal agentic framework. Before industry I
+        spent eight years at <strong>Harvard</strong>'s Arts & Humanities
+        Research Computing group (DARTH), building roughly twenty research
+        platforms — digital archives, TEI editing, IIIF image delivery,
+        NLP-driven search, and a lot of data visualization.
       </p>
       <p>
         On the side I run <a
@@ -76,8 +126,7 @@ const education = [
           class="underline decoration-accent-400/70 underline-offset-4 hover:text-accent-600"
           >Hapax Digital</a
         >, an AI and software-engineering consultancy focused on digital
-        humanities and ed-tech projects. If that sounds like it might overlap
-        with something you're working on, I'd love to hear about it.
+        humanities and ed-tech. Based in Somerville, MA.
       </p>
     </div>
 
@@ -85,9 +134,9 @@ const education = [
       <h2 class="font-serif text-2xl font-semibold mb-6">Experience</h2>
       <ol class="space-y-6 relative border-l border-ink-100 dark:border-ink-700/50 pl-6">
         {
-          roles.map((r) => (
+          experience.map((r) => (
             <li class="relative">
-              <span class="absolute -left-[33px] top-2 w-2.5 h-2.5 rounded-full bg-accent-500" />
+              <span class="absolute -left-8.25 top-2 w-2.5 h-2.5 rounded-full bg-accent-500" />
               <div class="flex flex-wrap items-baseline justify-between gap-2">
                 <h3 class="font-semibold">
                   {r.title}
@@ -112,7 +161,23 @@ const education = [
                 <div class="font-medium">{e.degree}</div>
                 <div class="text-ink-500">{e.school}</div>
               </div>
-              <span class="text-sm text-ink-500">{e.year}</span>
+              <span class="text-sm text-ink-500 shrink-0">{e.year}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="font-serif text-2xl font-semibold mb-6">
+        Selected publications
+      </h2>
+      <ul class="space-y-3">
+        {
+          publications.map((p) => (
+            <li>
+              <div class="font-medium">{p.title}</div>
+              {p.venue && <div class="text-ink-500 text-sm">{p.venue}</div>}
             </li>
           ))
         }
