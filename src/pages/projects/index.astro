@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Layout from "~/layouts/Layout.astro";
 import ProjectCard from "~/components/ProjectCard.astro";
+import { TECH } from "~/lib/tech";
 
 const all = await getCollection("projects");
 const sorted = all.sort((a, b) => {
@@ -9,24 +10,279 @@ const sorted = all.sort((a, b) => {
   const yb = b.data.start_date ?? "";
   return yb.localeCompare(ya);
 });
+
+const yearOf = (d?: string) => (d ? parseInt(d.slice(0, 4), 10) : undefined);
+const thisYear = new Date().getFullYear();
+
+const uniqTechs = [...new Set(all.flatMap((p) => p.data.technologies))].sort(
+  (a, b) => (TECH[a]?.display ?? a).localeCompare(TECH[b]?.display ?? b),
+);
+const uniqRoles = [...new Set(all.flatMap((p) => p.data.roles))].sort();
+
+const yearSet = new Set<number>();
+for (const p of all) {
+  const s = yearOf(p.data.start_date);
+  const e = yearOf(p.data.end_date) ?? (s ? thisYear : undefined);
+  if (s && e) for (let y = s; y <= e; y++) yearSet.add(y);
+}
+const uniqYears = [...yearSet].sort((a, b) => b - a);
 ---
 
 <Layout
   title="Projects — Cole Crawford"
-  description="A catalog of projects I've built, from digital archives to research tooling."
+  description="Projects spanning AI systems, research infrastructure, NLP, and digital archives."
 >
   <section class="mx-auto max-w-5xl px-6 pt-16 pb-6">
     <h1 class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight">
       Projects
     </h1>
     <p class="mt-3 max-w-2xl text-ink-500">
-      {sorted.length} projects spanning AI systems, research infrastructure,
-      NLP, and digital archives.
+      <span id="result-count">{all.length}</span>
+      <span id="result-total"> of {all.length}</span> projects — AI systems,
+      research infrastructure, NLP, and digital archives.
     </p>
   </section>
-  <section class="mx-auto max-w-5xl px-6 py-6">
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-      {sorted.map((p) => <ProjectCard project={p} />)}
+
+  <section class="mx-auto max-w-5xl px-6 pb-4">
+    <div class="flex flex-wrap items-center gap-2">
+      <label class="relative flex-1 min-w-[220px]">
+        <span class="sr-only">Search projects</span>
+        <svg
+          viewBox="0 0 24 24"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="absolute left-3 top-1/2 -translate-y-1/2 text-ink-500 pointer-events-none"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          id="search"
+          type="search"
+          placeholder="Search projects by name..."
+          class="w-full rounded-full border border-ink-100 dark:border-ink-700/50 bg-white dark:bg-ink-900/60 pl-9 pr-4 py-2 text-sm focus:outline-none focus:border-accent-400"
+          autocomplete="off"
+        />
+      </label>
+      <select
+        id="year"
+        class="rounded-full border border-ink-100 dark:border-ink-700/50 bg-white dark:bg-ink-900/60 px-3 py-2 text-sm focus:outline-none focus:border-accent-400"
+      >
+        <option value="">Any year</option>
+        {uniqYears.map((y) => <option value={y}>{y}</option>)}
+      </select>
+      <select
+        id="sort"
+        class="rounded-full border border-ink-100 dark:border-ink-700/50 bg-white dark:bg-ink-900/60 px-3 py-2 text-sm focus:outline-none focus:border-accent-400"
+      >
+        <option value="year-desc" selected>Newest first</option>
+        <option value="year-asc">Oldest first</option>
+        <option value="name-asc">Name A–Z</option>
+        <option value="name-desc">Name Z–A</option>
+      </select>
+      <button
+        id="reset"
+        type="button"
+        class="text-sm text-ink-500 hover:text-accent-600 px-3 py-2 transition"
+      >
+        Reset
+      </button>
+    </div>
+
+    <div class="mt-4 space-y-3">
+      <div>
+        <div class="text-xs uppercase tracking-widest text-ink-500 font-medium mb-2">
+          Technology
+        </div>
+        <div class="flex flex-wrap gap-1.5" id="tech-chips">
+          {
+            uniqTechs.map((t) => (
+              <button
+                type="button"
+                data-filter-tech={t}
+                aria-pressed="false"
+                class="rounded-full px-3 py-1 text-xs font-medium bg-ink-100/80 dark:bg-ink-700/40 hover:bg-accent-400/30 aria-pressed:bg-accent-600 aria-pressed:text-ink-50 transition"
+              >
+                {TECH[t]?.display ?? t}
+              </button>
+            ))
+          }
+        </div>
+      </div>
+      <div>
+        <div class="text-xs uppercase tracking-widest text-ink-500 font-medium mb-2">
+          Role
+        </div>
+        <div class="flex flex-wrap gap-1.5" id="role-chips">
+          {
+            uniqRoles.map((r) => (
+              <button
+                type="button"
+                data-filter-role={r}
+                aria-pressed="false"
+                class="rounded-full px-3 py-1 text-xs font-medium bg-ink-100/80 dark:bg-ink-700/40 hover:bg-accent-400/30 aria-pressed:bg-accent-600 aria-pressed:text-ink-50 transition"
+              >
+                {r}
+              </button>
+            ))
+          }
+        </div>
+      </div>
     </div>
   </section>
+
+  <section class="mx-auto max-w-5xl px-6 pb-16">
+    <div
+      id="results"
+      class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
+    >
+      {
+        sorted.map((p) => {
+          const s = yearOf(p.data.start_date);
+          const e = yearOf(p.data.end_date) ?? (s ? thisYear : "");
+          return (
+            <div
+              data-project
+              data-title={p.data.title.toLowerCase()}
+              data-techs={p.data.technologies.join("|")}
+              data-roles={p.data.roles.join("|")}
+              data-year-start={s ?? ""}
+              data-year-end={e ?? ""}
+            >
+              <ProjectCard project={p} />
+            </div>
+          );
+        })
+      }
+    </div>
+    <p id="no-results" class="hidden text-center text-ink-500 py-12">
+      No projects match your filters.
+    </p>
+  </section>
 </Layout>
+
+<script is:inline>
+  (function () {
+    const state = {
+      search: "",
+      techs: new Set(),
+      roles: new Set(),
+      year: "",
+      sort: "year-desc",
+    };
+
+    const results = document.getElementById("results");
+    const cards = [...results.querySelectorAll("[data-project]")];
+    const countEl = document.getElementById("result-count");
+    const noResults = document.getElementById("no-results");
+    const searchEl = document.getElementById("search");
+    const yearEl = document.getElementById("year");
+    const sortEl = document.getElementById("sort");
+
+    function apply() {
+      const q = state.search.trim().toLowerCase();
+      const matched = cards.filter((c) => {
+        if (q && !c.dataset.title.includes(q)) return false;
+        if (state.techs.size) {
+          const techs = (c.dataset.techs || "").split("|").filter(Boolean);
+          if (!techs.some((t) => state.techs.has(t))) return false;
+        }
+        if (state.roles.size) {
+          const roles = (c.dataset.roles || "").split("|").filter(Boolean);
+          if (!roles.some((r) => state.roles.has(r))) return false;
+        }
+        if (state.year) {
+          const s = parseInt(c.dataset.yearStart, 10);
+          const e = parseInt(c.dataset.yearEnd, 10);
+          const y = parseInt(state.year, 10);
+          if (!Number.isFinite(s) || !Number.isFinite(e)) return false;
+          if (y < s || y > e) return false;
+        }
+        return true;
+      });
+
+      matched.sort((a, b) => {
+        switch (state.sort) {
+          case "year-asc":
+            return (
+              (parseInt(a.dataset.yearStart, 10) || 0) -
+              (parseInt(b.dataset.yearStart, 10) || 0)
+            );
+          case "name-asc":
+            return a.dataset.title.localeCompare(b.dataset.title);
+          case "name-desc":
+            return b.dataset.title.localeCompare(a.dataset.title);
+          case "year-desc":
+          default:
+            return (
+              (parseInt(b.dataset.yearStart, 10) || 0) -
+              (parseInt(a.dataset.yearStart, 10) || 0)
+            );
+        }
+      });
+
+      cards.forEach((c) => (c.style.display = "none"));
+      matched.forEach((c) => {
+        c.style.display = "";
+        results.appendChild(c);
+      });
+
+      countEl.textContent = matched.length;
+      noResults.classList.toggle("hidden", matched.length > 0);
+    }
+
+    searchEl.addEventListener("input", (e) => {
+      state.search = e.target.value;
+      apply();
+    });
+    yearEl.addEventListener("change", (e) => {
+      state.year = e.target.value;
+      apply();
+    });
+    sortEl.addEventListener("change", (e) => {
+      state.sort = e.target.value;
+      apply();
+    });
+
+    function wireChips(containerId, set) {
+      document
+        .querySelectorAll("#" + containerId + " button[data-filter-tech], #" + containerId + " button[data-filter-role]")
+        .forEach((btn) => {
+          const value =
+            btn.dataset.filterTech ?? btn.dataset.filterRole;
+          btn.addEventListener("click", () => {
+            if (set.has(value)) set.delete(value);
+            else set.add(value);
+            btn.setAttribute(
+              "aria-pressed",
+              set.has(value) ? "true" : "false",
+            );
+            apply();
+          });
+        });
+    }
+    wireChips("tech-chips", state.techs);
+    wireChips("role-chips", state.roles);
+
+    document.getElementById("reset").addEventListener("click", () => {
+      state.search = "";
+      state.techs.clear();
+      state.roles.clear();
+      state.year = "";
+      state.sort = "year-desc";
+      searchEl.value = "";
+      yearEl.value = "";
+      sortEl.value = "year-desc";
+      document
+        .querySelectorAll("#tech-chips button, #role-chips button")
+        .forEach((b) => b.setAttribute("aria-pressed", "false"));
+      apply();
+    });
+  })();
+</script>
