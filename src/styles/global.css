@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
   --font-sans:
@@ -20,17 +21,16 @@
 }
 
 html {
-  color-scheme: light dark;
+  color-scheme: light;
   background: var(--color-ink-50);
   color: var(--color-ink-900);
   font-family: var(--font-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    background: var(--color-ink-900);
-    color: var(--color-ink-50);
-  }
+html.dark {
+  color-scheme: dark;
+  background: var(--color-ink-900);
+  color: var(--color-ink-50);
 }
 
 a {
